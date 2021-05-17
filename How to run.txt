@@ -1,0 +1,36 @@
+This software remove image background :
+Created By : Akshat Jain
+
+Prerequisite :
+->If prompt hangs at one position for more than 1 minute then repetedly press "Ctrl+C"
+->It uses internet servers to process data so make sure you are well connected with internet
+->Google Chrome must be installed in your system .
+->Chromedriver.exe must be present in Dist folder ( don't click on this exe file)
+
+How to run :
+Dist Folder -> Double Click on Server 1
+
+A command box will open :
+
+1)Speicherort, an dem Sie die Datei speichern möchten {German}  : Asking for a path where you want to save the processed file :
+  example : E:\ 
+{You must have administration power to save at that location : i.e. if at that location when you right click and select new and get no option other than new 
+folder than you dont have permission to save there choose different location}
+ {don't put any quotes or random spaces i.e. copy path as it is .}
+
+
+Infinite Loop Starts :
+2)Drücken Sie 1, um ein Bild zu verarbeiten, und alles andere, um es zu beenden {German} :  1 to process an image 0 to exit :
+Press 1
+{wait for few seconds}
+
+3)Vollständige Bildposition mit seinem Format {German} : Enter image you want to process / edit :
+example : C:\Users\Akshat Jain\Desktop\python test\images\bgr.jpeg
+{make sure you give proper info with right path , image name and its format type}
+{don't put any quotes or random spaces i.e. copy path as it is .}
+
+4)Image will start processing and will take 1-2 minutes or more depending upon size of the file
+
+5)Go to the path you have given to save file {in my case E:/} and check if you get the processed data 
+
+6)If you want to process more images press 1 and continue {start repeating processes from 2nd} and if you want to exit press 0  then Ctrl+C .
